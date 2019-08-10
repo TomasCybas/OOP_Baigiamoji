@@ -2,12 +2,12 @@ public class Hamster extends Animal {
     private int tailLength;
     private String color;
 
-
+    /**
+     * Constructor for Animal SubClass Hamster
+     * @param name name of the Hamster
+     */
     public Hamster(String name) {
         super(name, "Žiurkėnas");
-
-
-
     }
 
     public int getTailLength() {

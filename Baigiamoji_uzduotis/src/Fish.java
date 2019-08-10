@@ -2,11 +2,12 @@ public class Fish extends Animal {
     private int numberOfFins;
 
 
-
+    /**
+     * Constructor for Animal SubClass Fish
+     * @param name name of the Fish
+     */
     public Fish(String name) {
         super(name, "Žuvis");
-
-
     }
 
     public int getNumberOfFins() {
